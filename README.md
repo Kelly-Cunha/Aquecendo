@@ -1,2 +1,2 @@
 # Aquecendo
- Ligando os motores e seguindo na pista de DECOLAGEM
+ Ligando os motores e seguindo na pista de vôo
