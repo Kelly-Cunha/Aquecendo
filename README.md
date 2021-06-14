@@ -1,2 +1,3 @@
-# Aquecendo
- Ligando os motores e seguindo na pista de vôo
+# Aquecendo (Eclipse)
+Ligando os motores e seguindo na pista de vôo
+Divarsas atividades para praticar
