@@ -1,4 +1,4 @@
-package Homenagem5;
+package Homenagem6;
 
 import java.awt.Canvas;
 import java.awt.Color;
@@ -94,7 +94,7 @@ public class Game extends Canvas implements Runnable{
 		g.setColor(Color.white);
 		g.fillRect(3, 3,WIDTH,HEIGHT);
 		
-		/*Renderização*/ //rotação
+		/*RenderizaÃ§Ã£o*/ //rotaÃ§Ã£o
 		//Graphics2D g2 = (Graphics2D) g;
 		//g2.drawImage(player[curAnimation], 238, 125, null);
 		//g2.rotate(Math.toRadians(10),90+8,90+8);
@@ -104,25 +104,25 @@ public class Game extends Canvas implements Runnable{
 		
 		g.setFont(new Font("Arial",Font.LAYOUT_NO_START_CONTEXT,18));
 		g.setColor(Color.darkGray);
-		g.drawString("Meidson Júnior & Ediaynne Kelly", 35,19);
+		g.drawString("Meidson JÃºnior & Ediaynne Kelly", 35,19);
 		g.setColor(Color.magenta);
-		g.drawString("Meidson Júnior & Ediaynne Kelly", 34,20);		
+		g.drawString("Meidson JÃºnior & Ediaynne Kelly", 34,20);		
 
 		
 		g.setFont(new Font("Arial",Font.LAYOUT_NO_START_CONTEXT,12));
 		g.setColor(Color.magenta);
-		g.drawString("Pais Brilhantes dão algo incomparavelmente", 48,34);
-		g.drawString("valioso aos filhos que todo o dinheiro do mundo NÃO pode", 11,49);
-		g.drawString("comprar: o seu ser, a sua história, as suas experiências,", 19,62);
-		g.drawString("as suas lágrimas, o seu tempo.", 163,75);
-		g.drawString("Lembre-se que a imagem que a ANA BEATRIZ constrói ", 19,89);
-		g.drawString("de você NÃO pode ser apagada,", 8,104);
+		g.drawString("Pais Brilhantes dÃ£o algo incomparavelmente", 48,34);
+		g.drawString("valioso aos filhos que todo o dinheiro do mundo NÃƒO pode", 11,49);
+		g.drawString("comprar: o seu ser, a sua histÃ³ria, as suas experiÃªncias,", 19,62);
+		g.drawString("as suas lÃ¡grimas, o seu tempo.", 163,75);
+		g.drawString("Lembre-se que a imagem que a ANA BEATRIZ constrÃ³i ", 19,89);
+		g.drawString("de vocÃª NÃƒO pode ser apagada,", 8,104);
 		g.drawString("portanto esforce-se para dar bons exemplos.", 91,116);
 		
 		g.setColor(Color.darkGray);
-		g.drawString("Parabéns pela Aninha!!!", 106,148);
+		g.drawString("ParabÃ©ns pela Aninha!!!", 106,148);
 		g.setColor(Color.magenta);
-		g.drawString("Parabéns pela Aninha!!!", 105,148);
+		g.drawString("ParabÃ©ns pela Aninha!!!", 105,148);
 		
 		g.setFont(new Font("Arial",Font.LAYOUT_NO_START_CONTEXT,8));
 		g.setColor(Color.lightGray);
