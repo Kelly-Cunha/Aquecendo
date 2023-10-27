@@ -1,0 +1,82 @@
+var xPos = 220;
+var yPos = 220;
+var xPos1 = 311;
+var yPos1 = 226;
+var x = 380;
+var y = 227;
+
+draw = function() {
+    background(29, 40, 115);
+    
+    //estrelas cadentes
+    fill(251, 255, 0);
+    rect(xPos, yPos, 10, 10);
+    fill(255, 242, 0);
+    ellipse(xPos1, yPos1, 10, 10);
+    
+    xPos --;
+    yPos ++;
+    xPos1 ++;
+    yPos1 --;
+    
+    // céu estrelado
+    fill(250, 247, 247);
+    ellipse(25, 25, 3, 3);
+    ellipse(40, 40, 3, 3);
+    ellipse(70, 70, 3, 3);
+    ellipse(120, 118, 5,5);
+    ellipse(160, 160, 3,3);
+    ellipse(180, 180, 3,3);
+    ellipse(75, 25, 3, 3);
+    ellipse(60, 40, 3, 3);
+    ellipse(160, 60, 3, 3);
+    ellipse(180, 80, 3, 3);
+    
+    //moon
+    noStroke();
+    fill(232, 220, 232);
+    ellipse(305, 83, 108, 110);
+    
+    // 7nuvens negras
+    noStroke();
+    fill(59, 56, 59);
+    ellipse(305, 100, 108, 110);
+    ellipse(250, 100, 105, 93);
+    ellipse(350, 100, 105, 93);
+    
+    //prédio
+    fill(36, 32, 32);
+    rect(10, 261, 13, 38);
+    rect(14, 220, 2, 15);
+    rect(13, 236, 5, 25);
+    
+    //janelas do prédio
+    fill(237, 237, 138);
+    rect(12, 264, 4, 4);
+    rect(18, 264, 4, 4);
+    rect(12, 274, 4, 4);
+    rect(18, 274, 4, 4);
+    rect(12, 284, 4, 4);
+    rect(18, 284, 4, 4);
+    rect(12, 294, 4, 4);
+    rect(18, 294, 4, 4);
+    
+    rect(13, 244, 3, 3);
+    rect(15, 244, 3, 3);
+    rect(13, 254, 3, 3);
+    rect(15, 254, 3, 3);
+    
+    // dragon
+    image(getImage("avatars/aqualine-ultimate"), x, y, 55, 55);
+    
+    x --;
+     
+    
+    fill(13, 13, 13);
+    rect(0, 300, 399, 100);
+    
+    // moita
+    image(getImage("cute/TreeUgly"), 150, 170, 280, 230);
+    image(getImage("avatars/avatar-team"), 215, 273, 160, 120);
+
+};
