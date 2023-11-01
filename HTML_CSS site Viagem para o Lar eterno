@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Derivação de "Projeto: página web sobre viagens"</title>
+
+      <style>
+
+          h1 {
+
+                color: rgb(61, 114, 189);
+
+          }
+
+          h2 {
+
+                color: rgb(84, 147, 199);
+
+          }
+
+          h1 {
+
+                background-color: rgb(115, 212, 120);
+
+          }
+
+          h2 {
+
+                background-color: rgb(162, 225, 171);
+
+          }
+
+          p {
+
+              color: rgb(113, 137, 199);
+
+          }
+
+          .listas {
+
+              background-color: rgb(99, 86, 204);
+
+          }
+
+          .listas {
+
+              color: rgb(241, 240, 245);
+
+          }
+
+          body {
+
+              background-color: rgb(178, 240, 239);
+
+          }
+
+      </style>
+  </head>
+  <body>
+
+      <h1>Viagem para o Céu: Lar eterno</h1>
+
+      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png" alt="Céu parcialmente nublado com vista para o mar" width="400">
+
+      <p>Muito em breve embarcaremos numa viagem com passaporte de embarque único para a vida eerna!!!<br>Mas, como ocorrerá!?!"</p>
+
+      <h2>Primeiro verei meu Salvador</h2>
+
+      <p>Depois de Jesus substituir cada um de nós - para enfrentar a consequência pela escolha enganosa do pecado - ascendeu ao Céu prometendo voltar para resgatar todos que crerem Nele.<br>Então, muito em breve Jesus virá com Seus inúmeros anjos - assim veremos nosso Resgatador que tanto nos ama!!!"</p>
+
+      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountains-and-lake.png" alt="Céu parcialmente nublado com vales e montanhas" width="350">
+
+      <h2>Voarei para o Lar celestial</h2>
+
+      <p>Quando o encontro megavilhoso com nosso Salvador acontecer teremos o privilégio de:"</p>
+
+      <ul class="listas">
+
+          <li> conhecer nossos anjos;
+          <li>reencontrar nossos saudosos que descansam aguardando este momento único.
+
+      </ul>
+
+      <p>Finalmente faremos a viagem tão esperada para a vida que Deus preparou para nós desde Seu plano inicial.<br>Teremos infinita e abundantemente:</p>
+
+      <ol class="listas">
+
+          <li>Jesus
+          <li>Vida
+          <li>Saúde
+          <li>Paz
+          <li>Amor
+          <li>Meu zoológico
+          
+      </ol>
+
+      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-waves-at-sunset.png" alt="Céu parcialmente nublado com vista para o mar" width="400">
+
+      <p><strong>Como é animador esta <em>esperança inigualável</em>!!!<br>Esteja pronto e vamos juntos viver esta realidade prometida por Quem <em>nunca</em> falha!!!</strong></p>
+
+      <p>KellytaGo - Out/31/2023</p>
+
+  </body>
