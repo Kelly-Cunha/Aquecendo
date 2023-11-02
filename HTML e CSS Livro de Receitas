@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Derivação de "Projeto: livro de receitas"</title>
+      <meta charset="utf-g">
+      <style>
+          h1 {
+
+            background-color: rgb(237, 166, 35);
+
+          }
+
+          h2 {
+
+            background-color: rgb(237, 166, 35);
+
+          }
+
+          .table {
+
+            background-color: rgb(237, 166, 35);
+
+          }
+
+          .title {
+
+            background-color: rgb(247, 233, 190);
+
+          }
+
+          #body {
+
+            background-color: rgb(247, 233, 190);
+
+          }
+
+      </style>
+  </head>
+  <body>
+
+      <h1>Livro de Receitas - Ke' Saúde Humanizada</h1>
+
+      <h2 id="top">Conteúdo</h2>
+      <ol>
+          <li><a href="#guacamole">Salada de Tomate</a></li>
+          <li><a href="#suco-verde">Suco Verde</a></li>
+          <li><a href="#sheik">Sheik de Frutas</a></li>
+      </ol>
+
+      <h2 class="title">Salada de Tomate</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd0Gc5FJOZ_FJwc2ts87P2ju56XCOjJ4eBzgj0kebbRQowFnqGMzBNPgvNhpR4MHdMUhpFrr8&usqp=CAU" width="200">
+      <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd0Gc5FJOZ_FJwc2ts87P2ju56XCOjJ4eBzgj0kebbRQowFnqGMzBNPgvNhpR4MHdMUhpFrr8&usqp=CAU">Guacamole</a>
+
+      <ul>
+          <li>Tempo: 10 minutos</li>
+          <li>Serve: 2 porções</li>
+      </ul>
+
+      <table>
+          <thead>
+              <tr class="table">
+                  <th>Ingredientes</th>
+                  <th>Quantidade</th>
+              </tr>
+          </thead>
+
+          <tbody>
+              <td>Abacate</td>
+              <td>1/2</td>
+          </tbody>
+
+  </body>
+</html>
