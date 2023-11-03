@@ -1,73 +1,211 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <title>Derivação de "Projeto: livro de receitas"</title>
-      <meta charset="utf-g">
-      <style>
-          h1 {
-
+    <head>
+        <title>Derivação de "Projeto: livro de receitas"</title>
+        <meta charset="utf-8">
+        <style>
+        
+        h1{
             background-color: rgb(237, 166, 35);
-
-          }
-
-          h2 {
-
+        }
+        
+        h2 {
             background-color: rgb(237, 166, 35);
-
-          }
-
-          .table {
-
+        }
+        
+        .table {
             background-color: rgb(237, 166, 35);
-
-          }
-
-          .title {
-
+        }
+        
+        .title {
+            color: rgb(247, 233, 190);
+        }
+        
+        body {
             background-color: rgb(247, 233, 190);
-
-          }
-
-          #body {
-
-            background-color: rgb(247, 233, 190);
-
-          }
-
-      </style>
-  </head>
-  <body>
-
-      <h1>Livro de Receitas - Ke' Saúde Humanizada</h1>
-
-      <h2 id="top">Conteúdo</h2>
-      <ol>
-          <li><a href="#guacamole">Salada de Tomate</a></li>
-          <li><a href="#suco-verde">Suco Verde</a></li>
-          <li><a href="#sheik">Sheik de Frutas</a></li>
-      </ol>
-
-      <h2 class="title">Salada de Tomate</h2>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd0Gc5FJOZ_FJwc2ts87P2ju56XCOjJ4eBzgj0kebbRQowFnqGMzBNPgvNhpR4MHdMUhpFrr8&usqp=CAU" width="200">
-      <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd0Gc5FJOZ_FJwc2ts87P2ju56XCOjJ4eBzgj0kebbRQowFnqGMzBNPgvNhpR4MHdMUhpFrr8&usqp=CAU">Guacamole</a>
-
-      <ul>
-          <li>Tempo: 10 minutos</li>
-          <li>Serve: 2 porções</li>
-      </ul>
-
-      <table>
-          <thead>
-              <tr class="table">
-                  <th>Ingredientes</th>
-                  <th>Quantidade</th>
-              </tr>
-          </thead>
-
-          <tbody>
-              <td>Abacate</td>
-              <td>1/2</td>
-          </tbody>
-
-  </body>
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1 class="title">Livro de Receitas - Ke'Saúde Humanizada</h1>
+        
+        <h2 id="top">Conteúdo:</h2>
+        
+        <ol>
+            <li><a href="#guacamole">Salada de Tomate</a></li>
+            <li><a href="#suco-verde">Suco Verde</a></li>
+            <li><a href="#sheik">Sheik de Frutas</a></li>
+        </ol>
+        
+        <h2 class="title">Salada de Tomate</h2>
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFJOZ_FJwc2ts87P2juS6XCOjJ4eBzgj0kebbRQowFnqGMzBNPgvNhpR4MHdMuHpFrrR8&usqp=CAU" width="200">
+    
+    <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFJOZ_FJwc2ts87P2juS6XCOjJ4eBzgj0kebbRQowFnqGMzBNPgvNhpR4MHdMuHpFrrR8&usqp=CAU">Guacamole</a>
+        
+        <ul>
+            <li>Tempo: 10 minutos</li>
+            <li>Serve: 2 porções</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr class="table">
+                    <th>Ingredientes</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Abacate</td>
+                <td>1/2</td>
+            </tbody>
+            
+            <tbody>
+                <td>Reepolho picado/ralado</td>
+                <td>1/3</td>
+            </tbody>
+            
+            <tbody>
+                <td>Tomate picado</td>
+                <td>1</td>
+            </tbody>
+            
+            <tbody>
+                <td>Salsinha, pimentão, pepino,<br> azeitona e cebolinha picados</td>
+                <td>À gosto</td>
+            </tbody>
+            
+            <tbody>
+                <td>Alface picada/rasgada</td>
+                <td>3 folhas</td>
+            </tbody>
+            
+            
+        </table>
+        
+        <p><strong>Modo de Preparo:</strong><br> Higienizar os ingredientes com vinagre de álcool - folhagem por 5 minutos e outros por 30 minutos - depois picar à gosto.<br>Amassar o abacate, temperar com tempero da preferência - pode misturar com os ingredientes ou deixar à parte.
+</p>
+        
+    <p><em><a href="#top">Início da Página</a></em></p>
+    
+        <h2 class="title">Suco Verde</h2>
+            
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU2TikhqJthI5LMqBvMPkDvX_oNJLN7HsZTij7inBgRbYZitTn97ZHavbw7qr-zGHwZRI&usqp=CAU" width="200">
+    
+    <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU2TikhqJthI5LMqBvMPkDvX_oNJLN7HsZTij7inBgRbYZitTn97ZHavbw7qr-zGHwZRI&usqp=CAU">Suco verde</a>
+            
+        
+        <ul>
+            <li>Tempo: 10 minutos</li>
+            <li>Serve: 1 porção</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr class="table">
+                    <th>Ingredientes</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Água mineral/filtrada ou água de coco - se usar a centrífuga não adicione</td>
+                <td>200 ml</td>
+            </tbody>
+            
+            <tbody>
+                <td>Maçã pequena</td>
+                <td>1</td>
+            </tbody>
+            
+            <tbody>
+                <td>Cenoura grande</td>
+                <td>1</td>
+            </tbody>
+            
+            <tbody>
+                <td>Couve - variação: substitua por brócolis</td>
+                <td>2 folhas</td>
+            </tbody>
+            
+            <tbody>
+                <td>Salsinha ou coentro</td>
+                <td>1/2</td>
+            </tbody>
+            
+            <tbody>
+                <td>Limão</td>
+                <td>1</td>
+            </tbody>
+            
+        </table>
+        
+        <p><strong>Modo de Preparo:</strong><br>Higienize os ingredientes com vinagre de álcool - folhas por 5 minutos, demais ingredientes por 30 minutos.<br>Bater no liquidificador, coar ou passar os ingredientes na centrífuga, tomar na hora.
+</p>
+        
+    <p><em><a href="#top">Início da Página</a></em></p>
+    
+    <h2 class="title">Sheik de Frutas</h2>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tfl0pwqfJPw8VFKXlj7Ci41pJfuFnMF8WQ&usqp=CAU" width="200">
+    
+    <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tfl0pwqfJPw8VFKXlj7Ci41pJfuFnMF8WQ&usqp=CAU">Sheik de frutas</a>
+        
+        <ul>
+            <li>Tempo: 10 minutos</li>
+            <li>Serve: 1 porção</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr class="table">
+                    <th>Ingredientes</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+                
+            <tbody>
+                <td>Leite de alpiste ou de coco</td>
+                <td>300 ml</td>
+            </tbody>
+            
+            <tbody>
+                <td>Psillium em pó ou linhaça tostada e moída</td>
+                <td>1 col. sopa rasa</td>
+            </tbody>
+            
+            <tbody>
+                <td>Farinha de banana verde</td>
+                <td>1 col. sopa rasa</td>
+            </tbody>
+            
+            <tbody>
+                <td>Manga palmer ou mamão</td>
+                <td>1/2</td>
+            </tbody>
+            
+            <tbody>
+                <td>Semente de abóbora</td>
+                <td>1 col. chá</td>
+            </tbody>
+            
+            <tbody>
+                <td>Gergelim</td>
+                <td>1 col. chá</td>
+            </tbody>
+            
+            <tbody>
+                <td>Óleo de coco -  desjejum, no jantar 1 col.</td>
+                <td>2 col. sopa</td>
+            </tbody>
+            
+        </table>
+        
+        <p><strong>Modo de Preparo:</strong><br>Bata tudo no liquidificador.<br>Tome na hora.
+</p>
+        
+    <p><em><a href="#top">Início da Página</a></em></p>
+    
+    </body>
 </html>
