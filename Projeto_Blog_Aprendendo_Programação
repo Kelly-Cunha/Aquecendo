@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Derivação de "Projeto: Blog"</title>
+        <style>
+        
+            body {
+                font-family: coursive;
+                font-size: 20px;
+            }
+        
+            .monospace {
+                color: rgb(84, 160, 204);
+                font-family: coursive;
+                font-size: 1,5em;
+            }
+            
+            .lista {
+                color: rgb(245, 177, 5);
+                font-family: coursive;
+                font-size: 16px;
+            }
+            
+            #table {
+                background-color: rgb(245, 177, 5);
+            }
+            
+            .listap {
+                color: rgb(245, 177, 5);
+                font-family: coursive;
+                font-size: 16px;
+                font-weight: 1,5px;
+            }
+            
+            .p {
+                font-family: coursive;
+                font-size: 12px;
+            }
+            
+            #p {
+                color: rgb(245, 177, 5);
+                font-family: coursive;
+                font-size: 16px;
+            }
+            
+            h3 {
+                color: rgb(245, 177, 5);
+                font-family: coursive;
+                font-style: italic;
+                font-size: 20px;
+            }
+            
+            h4 {
+                color: rgb(245, 177, 5);
+                font-family: coursive;
+                font-style: italic;
+                font-size: 18px;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        
+        <h1  class="monospace">Aprendendo Programação</h1>
+        
+        <h3 id="top" class="monospace">Conteúdo</h3>
+        
+        <ul>
+            <li class="lista"><a href="#1">HTML/CSS: Criação de página <em>Web</em></a></li>
+            <li class="lista"><a href="#2">SQL: Consulta e gerenciamento de dados</a></li>
+            <li class="lista"><a href="#3">JavaScript - Desenho e Animação</a></li>
+        </ul>
+        
+        <h2 id="1" class="monospace">HTML/CSS: Criação de página <em>Web</em></h2>
+        <h6  class="monospace">Última atualização: nov/2023</h6>
+      
+        <p id="p">Estou muito animada com os resultados deste aprendizado!<br>Abaixo estão os tópicos que me leva ao encantamento.</p>
+      
+        <h4><a id="html">1. HTML</a></h4>
+      
+        <ol>
+            <li class="lista"><a href="#html">Elementos HTML</a></li>
+            <li class="lista"><a href="#02">Título, Parágrafo, Quebra linha, Ênfase de texto e Imagem</a></li>
+            <li class="lista"><a href="#03">JavaScript - Desenho e Animação</a></li>
+        </ol>
+        
+        <h4 id="01">Elementos HTML - entre colchetes de abertura  e fechamento (com barra entre o colchete e a letra)</h4>
+        
+        <p id="p">- !DOCTYPE html- Somente abertura; indicativo para o navegador de que a página foi criada com HTML moderno.<br>- html - Abertura no início da página e fechamento no fianl da página; linguagem de marcação tag<br>- head - Abertura abaixo do html e fechamento antes do body; composta por tags que ajudam a processar á página não visível ao leitor (por exemplo: estilo de fonte).<br>- meta charset="utf-8" - Somente abertura abaixo do head; para criar página no idioma inglês.<br>- title - Abertura e fechamento na mesma linha; define o título da página no início da página.<br>- body - registra os comandos na linguagem HTML que compõe o corpo da página para o leitor, tais como:</p>
+        
+        <ul>
+            <li class="listap">Título e subtítulo</li>
+            <li class="listap">Parágrafos</li>
+            <li class="listap">Imagem</li>
+            <li class="listap">links interno e externo</li>
+            <li class="listap">listas desordenadas e organizadas</li>
+            
+        </ul>
+        
+        <h4 id="02">Título, Parágrafo, Quebra linha, Ênfase e Imagem</h4>
+        
+        <table>
+            <thead>
+                <tr id="table">
+                    <th>Tags</th>
+                    <th>Utilização</th>
+                </tr>
+                
+            </thead>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>h (de 1 - a 6)</th>
+                    <th>Título e Subtítulo</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>p e /p</th>
+                    <th>Parágrafo</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>br</th>
+                    <th>Quebra de linha</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>em e /em</th>
+                    <th>Ênfase de texto em itálico</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>strong e /strong</th>
+                    <th>Ênfase de texto em negrito</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>img src (acrescentar o sinal de recebe/igual e aspas após src - abertura), alt e width (acrescentar o sinal de recebe/igual e aspas após alt e width)</th>
+                    <th>Adicione a URL da imagem entre aspas; alt para adicionar a legenda da imagem entre aspas e width para dimenção da imagem; separar os comandos com espaço</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>!-- <em>Escrever o recado aqui</em> -- (colchetes de abertura e fechamento)</th>
+                    <th>Comentário (oculto ao usuário)</th>
+                </tr>
+            </tbody>
+        </table>
+        
+
+       <h4 id="02">Listas</h4>
+        
+        <ul>
+            <li class="listap">ul e /ul - Lista desordenada</li>
+            <li class="listap">ol e /ol - Lista ordenada</li>
+            <li class="listap">li e /li - linhas entre as tags de lista desordenada e ordenada</li>
+        </ul>
+        
+        <h4 id="02">Links</h4>
+        
+        <p id="p">- a target blank (acrescentar o sinal de recebe/igual e aspas após target - abertura) - Link HTML. Entre as aspas acicionar a URL; após o colchete de fechamento acrescenta a legenda do link.<br>- Link Interno HTML - 2 etapas: <br></p>
+        
+        <table>
+            <tbody>
+                <tr class="lista">
+                    <th>id (acrescentar o sinal de recebe/igual seguido de aspas)</th>
+                    <th>Criar a id no local (entre os colchetes de abertura e fechamento: título/subtítulo, parágrafo) a ser direcionado ao clicar no link interno da lista criada</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>a href (acrescentar o sinal de recebe/igual e aspas após href)</th>
+                    <th>Entre aspas chamar a id criada com # (conferindo a escrita que deve ser identica)</th>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        <h4 id="02">Tabela</h4>
+        
+       <p id="p">table e /table - Acrescentar as tags de abertura e fechamento; entre as 2 tags seguir as etapas abaixo:</p>
+        
+        <ol>
+            <li class="lista"> thead e /thead - Para criar a guia da tabela e o número de colunas necessário, crescentar esta tag dentro da tag table.</li>
+            <li class="lista">th e /th - Acrescentar estas tags dentro das tags thead para adicionar o conteúdo da guia da coluna.</li>
+            <li class="lista"> tbody e /tbody - Para criar a quantidade de linhas necessárias crescentar esta tag abaixo da tag thead.</li>
+            <li class="lista">tr e /tr - Acrescentar estas tags dentro das tags tbody para criar o número de linhas necessárias.</li>
+        </ol>
+        
+        
+        <h4><a id="css">2. CSS</a></h4>
+      
+        <ol>
+            <li class="lista"><a href="#html">.</a></li>
+            <li class="lista"><a href="#02">.</a></li>
+            <li class="lista"><a href="#03">.</a></li>
+        </ol>
+        
+    <p class="p"><em><a href="#html">Início da Página</a></em></p>
+    
+        
+        <h2 id="2" class="monospace">SQL: Consulta e gerenciamento de dados</h2>
+        <h6  class="monospace">Última atualização: nov/2023</h6>
+        
+        <p id="p">A caminho!</p>
+        
+        <h3>.</h3>
+        
+        <p id="p">A caminho!</p>
+        
+        <p class="p"><em><a href="#top">Início da Página</a></em></p>
+    
+    
+    <h2 id="3" class="monospace">JavaScript - Desenho e Animação</h2>
+        <h6  class="monospace">Última atualização: nov/2023</h6>
+        
+        <p id="p">A caminho!</p>
+        
+        <h3>.</h3>
+        
+        <p id="p">A caminho!</p>
+        
+        <p class="p"><em><a href="#top">Início da Página</a></em></p>    
+    </body>
+</html>
