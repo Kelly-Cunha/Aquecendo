@@ -202,14 +202,182 @@
         </ol>
         
         
-        <h4><a id="css">2. CSS</a></h4>
+        <h4><a id="css">2 CSS</a></h4>
       
         <ol>
-            <li class="lista"><a href="#html">.</a></li>
-            <li class="lista"><a href="#02">.</a></li>
-            <li class="lista"><a href="#03">.</a></li>
+            <li class="lista"><a href="#html">2.1 CSS Básico</a></li>
+            <li class="lista"><a href="#02">2.2 Propriedade CSS</a></li>
+            <li class="lista"><a href="#03">2.3 Escrita e estilos de fonte CSS</a></li>
+            <li class="lista"><a href="#04">2.4 Herança CSS</a></li>
+            <li class="lista"><a href="#05">2.5 Layout CSS</a></li>
         </ol>
         
+        <h4 id="01">2.1 CSS Básico</h4>
+        
+            <p class="listap">style e /style - Entre as tags head e /head (analizador da linguagem CSS), onde crio a regra de estlio do CSS com seletor que diz ao navegador qual parte da página é estilo e declarações que diz ao navegador como estilizar com os seletores na tabela a seguir:</p>
+            
+        <table>
+            <thead>
+                <tr id="table">
+                    <th>Seletor</th>
+                    <th>Utilização</th>
+                </tr>
+                
+            </thead>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>h2 (seguido por chave de abertura e fechadura)</th>
+                    <th>Estiliza o título indicado com color seguido de 2 pontos espaço, rgb seguido de parenteses (abre a paleta de cores) seguido de ponto e vírgula</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>body (seguido por chave de abertura e fechadura)</th>
+                    <th>Estiliza toda a página com background-color seguido de 2 pontos, rgb seguido de parenteses (abre a paleta de cores) seguido de ponto e vírgula</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>p (seguido por chave de abertura e fechadura)</th>
+                    <th>Estiliza as letras dos parágrafos com color seguido de 2 pontos, rgb seguido de parenteses (abre a paleta de cores) seguido de ponto e vírgula</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>#(seguido, <em>sem espaço</em>, do nome da id)</th>
+                    <th>Estiliza o ambiente em que a id foi criada</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>.(seguido, <em>sem espaço</em>, do nome da classe)</th>
+                    <th>Estiliza o ambiente em que a classe foi criada</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>background-color (seguido de 2 pontos, rgb seguido de parenteses (abre a paleta de cores) seguido de ponto e vírgula)</th>
+                    <th>Estiliza o fundo do ambiente indicado </th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>color (seguido de 2 pontos, rgb seguido de parenteses (abre a paleta de cores) seguido de ponto e vírgula)</th>
+                    <th>Estiliza a fonte do ambiente indicado </th>
+                </tr>
+            </tbody>
+            
+        </table>
+        
+        
+        <h4 id="01">2.2 Propriedade CSS</h4>
+        
+            <p class="listap">A propriedade CSS é adicionada junto ao local/seletor que necessita ser aplicado estlio no texto, conforme indicado na tabela abaixo:</p>
+        
+        <table>
+            <thead>
+                <tr id="table">
+                    <th>Propriedade</th>
+                    <th>Estilo</th>
+                </tr>
+                
+            </thead>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>font-family (seguido 2 pontos e o estilo desejado - pode colocar o nome da fonte desejada entre aspas antes do estilo indicado separando por vírgula)</th>
+                    <th>Indicar um dos estilos seguido de ponto e vírgula:<br>serif<br>sans-serif<br>cursive<br>monospace </th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>font-size (seguido 2 pontos e o tamanho da fonte necessário seguido da abreviatura de pixels (px) ou em no seletor do título necessário e finaliza com ponto e vírugla)</th>
+                    <th>px - Configura o tamanho da fonte tanto de um local específico quanto do body<br>em: Configura o tamanho do título e subtítulo proporcionalmente ao tamanha da fonte do corpo da página</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>line-height (seguido de 2 pontos e o tamanho da entrelinha necessário seguido da abreviatura de pixels (px) ou em no seletor do título necessário e finaliza com ponto e vírugla)</th>
+                    <th>Configura o espaçamento da entrelinha do local indicado na escolha do seletor</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>text-align (seguido de 2 pontos e o alinhamento necessário e finaliza com ponto e vírugla)</th>
+                    <th>Configura o alinhamento do local indicado na escolha do seletor</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>text-decoration (seguido de 2 pontos de underline e finaliza com ponto e vírugla)</th>
+                    <th>Configura o texto sublinhado do local indicado na escolha do seletor</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>a (seguido de chave de abertura e fechamento) text-decoration (seguido de 2 pontos de none e finaliza com ponto e vírugla)</th>
+                    <th>Retira o sublinhado do link - deve indicar o link (por exemplo, Link (ou Leia mais em...): Wikipedia)</th>
+                </tr>
+            </tbody>
+            
+        </table>
+        
+        <h4 id="01">2.3 Escrita e estilos de fonte CSS</h4>
+        
+        <table>
+            <thead>
+                <tr id="table">
+                    <th>Escrita</th>
+                    <th>Estilo</th>
+                </tr>
+                
+            </thead>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>font-weight (seguido de 2 pontos), bold (seguido de ponto e vírgula)</th>
+                    <th>Configura em negrito o texto do local indicado</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>font-style (seguido de 2 pontos), italic (seguido de ponto e vírgula)</th>
+                    <th>Configura em italico o texto do local indicado</th>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>font (seguido de 2 pontos), italic (tamanho da fonte em px e o estilo da fonte family, seguido de ponto e vírgula)</th>
+                <th>Propriedade abreviada dos 3 comandos exatamente nesta ordem de configuração do local indicado</th>
+                </tr>
+            </tbody>
+            
+        </table>
+        
+        
+        <h4 id="01">2.4 Herança CSS</h4>
+        
+        <p id="p">Toda <em>tag</em> aplicável no seletor body é <strong>herdada</strong>. </p>
+        
+        
+        <h4 id="01">2.5 Layout CSS</h4>
+        
+        
+       
     <p class="p"><em><a href="#html">Início da Página</a></em></p>
     
         
