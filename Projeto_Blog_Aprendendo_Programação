@@ -208,8 +208,8 @@
             <li class="lista"><a href="#html">2.1 CSS Básico</a></li>
             <li class="lista"><a href="#02">2.2 Propriedade CSS</a></li>
             <li class="lista"><a href="#03">2.3 Escrita e estilos de fonte CSS</a></li>
-            <li class="lista"><a href="#04">2.4 Herança CSS</a></li>
-            <li class="lista"><a href="#05">2.5 Layout CSS</a></li>
+            <li class="lista"><a href="#05">2.5 Ferramentas de Desenvolvimento do Navegador</a></li>
+            <li class="lista"><a href="#05">2.6 Layout CSS</a></li>
         </ol>
         
         <h4 id="01">2.1 CSS Básico</h4>
@@ -376,9 +376,35 @@
         
         <h4 id="01">2.5 Layout CSS</h4>
         
+
+        <h4 id="02">2.6 Ferramentas de Desenvolvimento do Navegador</h4>
         
+       <ul id="p">
+            <li>Dentre inúmeras ferramentas éxiste o Inspetor do HTML e do CSS: basta clicar com o botão direito do mouse em uma palavra da página e escolher a opção <strong>inspecionar</strong>.</li>
+           <li>Desenvolvedor de página <em>Web</em> através de <strong>editor de um códigos</strong>. Precisa salvar o arquivo com a terminação <strong>.html</strong>.</li>
+       </ul>
+        
+       <table>
+            <thead>
+                <tr class="lista">
+                    <th>Editores <em>on-line</em></th>
+                    <th>Editores de <em>desktop</em></th>
+                    <th>Editores de linha de comando</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr class="lista">
+                    <th>Opção para PC que não permite baixar App ou se quer usar o mesmo editor em vários PCs:<br>JSBin<br>Repl.it<br>Flitch<br>CodePen<br>No Chromebook App:<br>Caret<br>Zed<br>Cloud9</th>
+                    <th>App com versão e preço variados:<br>Visual Studio Code<br>Atom<br>Sublime Text<br>Adobe Brackets<br>Notepad++ (Windows)</th>
+                    <th>Caso goste de digitar e navegar com o teclado (ao invés de usar o mouse), abaixo estão os dois editores de linha de comando populares - geralmente vêm instalados em sistemas Unix (Macs e Linux):<br>Emacs<br>Vim</th>
+                </tr>
+            </tbody>
+        </table>
+                
+        <p id="p">A escolha do editor de códigos é verificar com colegas que trabalhe com programação para ter interação quando necessitar de ajuda.</p>
        
-    <p class="p"><em><a href="#html">Início da Página</a></em></p>
+        <p class="p"><em><a href="#html">Início da Página</a></em></p>
     
         
         <h2 id="2" class="monospace">SQL: Consulta e gerenciamento de dados</h2>
