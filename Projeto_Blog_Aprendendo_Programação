@@ -375,7 +375,93 @@
         
         
         <h4 id="01">2.5 Layout CSS</h4>
+
+        <h4 id="01">2.6.1 Agrupamento de Elementos CSS</h4>
         
+        <p id="p">div e /div - Configura uma parte definida pela <em>tag</em>:<br>- Cor;<br>- Largura/height;<br>- Altura/width;<br>- Overflow: <b><em>visible</em></b>, auto, hidden;<br>- Overflow y (define o movimento para as direções y): auto; define o movimento da barra de rolagem para cima e para baixo;<br>- Overflow x: hidden; limita nesta direção;<br>id: ao criar uma <b>id</b> na <br>tag<br>de imagem é possível configurar o posicionamento.</p>
+        
+        <h4 id="01">2.6.2 Modelo de Caixa CSS</h4>
+        
+        <img src="https://www.kasandbox.org/programming-images/misc/boxmodel.png" width="380">
+        
+        <h4 id="01">2.6.3 Posição CSS</h4>
+        
+        <p id="p">
+        #landscape {<br>
+            width: 250px;<br>
+            position: absolute;<br>
+            top: 20px;<br>
+            left: 10px;<br>
+            z-index: 1;<br>
+        }<p>
+        
+        <p id="p">
+        #winston {<br>
+            position: absolute;<br>
+            top: 50px;<br>
+            left: 50px;<br>
+            z-index: 2;<br>
+        }</p>
+        
+        <p id="p">
+        #hopper {<br>
+            position: absolute;<br>
+            top: 30px;<br>
+            left: 80px;<br>
+            z-index: 3;<br>
+        }</p>
+        
+        <p id="p">
+        h1 {<br>
+            position: fixed;<br>
+            z-index: 4;<br>
+            left: 30px;<br>
+        }</p>
+        
+        <p id="p">
+        #song {<br>
+            position: relative;<br>
+            top: 220px;<br>
+        }</p>
+        
+        
+        <h4 id="01">2.6.4 Elementos CSS Flutuante</h4>
+        
+        <p id="p">
+        #hopper-pic {<br>
+            width: 100px;<br>
+            float: left;<br>
+            margin-right: 6px;<br>
+            margin-bottom: 6px;<br>
+        }</p>
+        
+        <p id="p">
+        #hopper-footer {<br>
+            background-color: rgb(232, 232, 232);<br>
+            padding: 6px;<br>
+            clear: both;<br>
+        }</p>
+        
+        <p id="p">
+        #hopper-links {<br>
+            float: right;<br>
+            width: 30%;<br>
+            margin-left: 10px;<br>
+        }</p>
+        
+        
+        <h4 id="01">2.6.5 Planejando sua Página <em>Web</em></h4>
+        
+        <p id="p">Defino: conteúdo, disposição e até comportamento.</p>
+      
+        <ul>
+            <li class="listap">- Brainstorming: Defini toda e qualquer coisa. </li>
+            <li class="listap">- Prototipagem em Papel: SF quiche (App <em>Web</em>)</li>
+            <li class="listap">- <em>Wireframes</em>: InvisionApp.</li>
+        </ul>
+        
+     
+    <p class="p"><em><a href="#html">Início da Página</a></em></p>
 
         <h4 id="02">2.6 Ferramentas de Desenvolvimento do Navegador</h4>
         
